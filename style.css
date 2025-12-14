@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Texturina:ital,opsz,wght@0,12..72,100;1,12..72,100&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.const {
+  max-width: 1920px;
+  min-width: 320px;
+  margin: 0 auto; 
+  font-family: 'Texturina', serif; /* to'g'ri yozilishi */
+  padding: 20px; /* bu hamma containerli elementlarni chetdan 20px uzoqlashtiradi */
+}
+
+.nav {
+  background-color: rgba(220, 220, 220, 0.5);
+  display: flex;
+  justify-content: space-between; /* space-around o'rniga space-between yaxshiroq ko'rinadi */
+  align-items: center;
+  padding: 20px 0; /* ichki bo'shliq qo'shdim */
+  border-radius: 10px; /* optional: yumaloq burchaklar */
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding-right: 40px; /* logo bilan muvozanat uchun */
+  font-size: 15px;
+}
+
+.nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav img {
+  width: 50px;
+  height: 40px;
+  margin-left: 30px; /* chapdan biroz bo'shliq */
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+  background-color: rgb(255, 218, 123);
+  color: rgba(38, 38, 38, 0.788);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.h_h1 {
+  background-color: rgba(220, 220, 220, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  border-radius: 10px;
+  margin: 30px 0 0 0; /* faqat yuqori va pastki margin */
+}
+
+.h_h1 h1 {
+  letter-spacing: 3px;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+section {
+  background-color: rgba(220, 220, 220, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px; /* ichki bo'shliq qo'shdim, matnlar chiroyli joylashishi uchun */
+  border-radius: 10px;
+  gap: 40px; /* elementlar orasidagi bo'shliq */
+  flex-wrap: wrap; /* kichik ekranlarda pastga tushadi */
+}
+
+section h3 {
+  width: 100%;
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.team {
+  width: 100%;
+  max-width: 400px;
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 40px auto 20px auto; 
+  text-align: center;
+  color: grey;
+  font-size: 0.9rem;
+  padding: 20px;
+}
+.h_h2 img{
+   width:350px;
+   height: 350px;
+}
+.h_h2 {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  border-radius: 10px;
+  margin: 30px 0 0 0; 
+}
+.alohida{
+     background-color: rgba(220, 220, 220, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  border-radius: 10px;
+  margin: 30px 0 0 0; 
+}
+
+#p{
+    color:  whitesmoke;
+    text-align: center;
+
+}
+.h7{
+    color:rgb(170, 170, 170);
+    text-align: center;
+    font-size: 50px;
+}
